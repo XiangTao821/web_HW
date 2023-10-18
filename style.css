@@ -1,0 +1,169 @@
+html {
+    background-color: #EDF2C5;
+    max-width: 1440px;
+    max-height: 1024px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 1122px;
+    height: 62px;
+    margin: 10px auto;
+}
+
+.v-line {
+    border-left: 1px solid #778A50;
+    height: 100%;
+    display: inline-block;
+}
+
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerdiv .Vegetables {
+    width: 253px;
+    height: 60px;
+    white-space: nowrap;
+    display: flex;
+    justify-items: left;
+    color: #778A50;
+}
+
+.headerdiv .rightdiv {
+    width: 208px;
+    height: 24px;
+    white-space: nowrap;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.rightdiv * {
+    margin: 0 5px;
+}
+
+.headerdiv {
+    text-align: center;
+    align-items: center;
+}
+
+header div div span {
+    border: 1px solid #778A50;
+    color: #778A50;
+    padding: 5px;
+}
+
+.imgWH {
+    width: 24px;
+    height: 24px;
+}
+
+nav {
+    width: 1120px;
+    height: 44px;
+    background-color: #778A50;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+nav label {
+    height: 24px;
+    color: #EDF2C5;
+    margin: 10px 30px;
+}
+
+main {
+    width: 1120px;
+    height: 681px;
+    margin: 10px auto;
+}
+
+.MainDiv {
+    width: 528px;
+    height: 45px;
+    background-color: #778A50;
+    margin: 10px 0 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.MainDivLabel {
+    width: 94px;
+    height: 24px;
+    color: #EDF2C5;
+    margin: 0 30px;
+}
+
+.ThreeImg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContactDiv {
+    width: 528px;
+    height: 140px;
+    background-color: #F7FBDA;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.ContactDiv label {
+    display: block;
+    margin: 30px;
+    color: #7D7D7D;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.containerdiv {
+    width: 528px;
+    height: 201px;
+}
+
+footer {
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #778A50;
+    margin: 10% 0 0 0;
+}
+
+footer label {
+    width: 302px;
+    height: 18px;
+    color: #EDF2C5;
+}
+
+.Head1 {
+    font-size: 44px;
+    line-height: normal;
+}
+
+.Head2 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Text1 {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.Text2 {
+    font-size: 12px;
+    line-height: 18px;
+}
